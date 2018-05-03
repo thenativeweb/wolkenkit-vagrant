@@ -2,6 +2,14 @@
 
 wolkenkit-vagrant provides a Vagrantfile to setup wolkenkit VMs.
 
+## What is wolkenkit?
+
+> wolkenkit is a CQRS and event-sourcing framework for JavaScript and Node.js. wolkenkit uses an event-driven model based on DDD to setup an API for your business in no time. This way, wolkenkit bridges the language gap between your domain and technology.
+>
+> [wolkenkit.io](https://www.wolkenkit.io/)
+
+For more details on wolkenkit see the [wolkenkit documentation](https://docs.wolkenkit.io).
+
 ## Installation
 
 To run a wolkenkit VM, you need to [install Vagrant](https://www.vagrantup.com/downloads.html), version 2.0.4 or above.
