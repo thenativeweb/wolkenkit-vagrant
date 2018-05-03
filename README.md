@@ -20,11 +20,25 @@ To run a wolkenkit VM, use the following command:
 $ vagrant up
 ```
 
+To enter the VM, run:
+
+```shell
+$ vagrant ssh
+```
+
+Now, you can use the [wolkenkit CLI](https://github.com/thenativeweb/wolkenkit) as usual.
+
+*Please note that Vagrant mounts your current directory from the host as `/vagrant` inside the VM. Any files you store in this directory will be synchronized between the VM and your host.*
+
+### Stopping the VM
+
 To stop the VM, run:
 
 ```shell
 $ vagrant halt
 ```
+
+### Deleting the VM
 
 If you don't need the VM any more and would like to delete it, use:
 
