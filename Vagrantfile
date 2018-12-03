@@ -1,10 +1,10 @@
 VAGRANTFILE_API_VERSION = "2"
 
-Vagrant.require_version ">= 2.0.4"
+Vagrant.require_version ">= 2.2.1"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "thenativeweb/wolkenkit"
-  config.vm.box_version = "2.0.0"
+  config.vm.box_version = "3.0.0"
   config.vm.box_check_update = true
 
   # Broker (API, Debug, Status)
